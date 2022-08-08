@@ -3,11 +3,14 @@ import { loadSlim } from 'tsparticles-slim'; // loads tsparticles-slim
 //import { loadFull } from "tsparticles"; // loads tsparticles
 import { useCallback, useMemo } from 'react';
 import { useTheme } from 'next-themes';
+import useWindowSize from '../hooks/useWindowSize';
 
 // tsParticles Repository: https://github.com/matteobruni/tsparticles
 // tsParticles Website: https://particles.js.org/
 const ParticlesComponent = (props) => {
   const { theme, setTheme } = useTheme();
+  const size = useWindowSize();
+  console.log(size);
   // using useMemo is not mandatory, but it's recommended since this value can be memoized if static
   const optionsLight = useMemo(() => {
     // using an empty options object will load the default options, which are static particles with no background and 3px radius, opacity 100%, white color
@@ -43,7 +46,7 @@ const ParticlesComponent = (props) => {
 
       particles: {
         number: {
-          value: 62,
+          value: 50,
           density: {
             enable: true,
             value_area: 800,
@@ -53,16 +56,16 @@ const ParticlesComponent = (props) => {
           type: 'triangle',
           stroke: {
             width: 2,
-            color: '##181616',
+            color: '#4b5563',
           },
         },
         color: {
-          value: '#181616',
+          value: '#4b5563',
         },
         links: {
           enable: true, // enabling this will make particles linked together
           distance: 200, // maximum distance for linking the particles
-          color: '#181515',
+          color: '#4b5563',
         },
         move: {
           enable: true, // enabling this will make particles move in the canvas
@@ -81,7 +84,7 @@ const ParticlesComponent = (props) => {
           },
           animation: {
             enable: true,
-            speed: 20,
+            speed: 10,
             minimumValue: 0.1,
           },
         },
@@ -94,7 +97,7 @@ const ParticlesComponent = (props) => {
     // all options can be found here: https://particles.js.org/docs/interfaces/Options_Interfaces_IOptions.IOptions.html
     return {
       background: {
-        color: '#000', // this sets a background color for the canvas
+        color: '#111827', // this sets a background color for the canvas
       },
       fullScreen: {
         enable: false, // enabling this will make the canvas fill the entire screen, it's enabled by default
@@ -123,7 +126,7 @@ const ParticlesComponent = (props) => {
 
       particles: {
         number: {
-          value: 62,
+          value: 50,
           density: {
             enable: true,
             value_area: 800,
@@ -161,7 +164,7 @@ const ParticlesComponent = (props) => {
           },
           animation: {
             enable: true,
-            speed: 20,
+            speed: 10,
             minimumValue: 0.1,
           },
         },
@@ -183,6 +186,7 @@ const ParticlesComponent = (props) => {
         init={particlesInit}
         options={optionsLight}
         className={props.className}
+        height={size.height}
       />
     );
   } else {
@@ -192,6 +196,7 @@ const ParticlesComponent = (props) => {
         init={particlesInit}
         options={optionsDark}
         className={props.className}
+        height={size.height}
       />
     );
   }
