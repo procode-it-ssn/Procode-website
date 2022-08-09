@@ -87,6 +87,7 @@ export default function Modal({
                       <a
                         href={`https://www.github.com/${socials.github}/`}
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -103,6 +104,7 @@ export default function Modal({
                       <a
                         href={`https://www.linkedin.com/in/${socials.linkedin}/`}
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -119,6 +121,7 @@ export default function Modal({
                       <a
                         href={`https://www.instagram.com/${socials.instagram}/`}
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
