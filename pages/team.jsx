@@ -1,3 +1,4 @@
+import { UserCircleIcon } from '@heroicons/react/solid';
 import { useState } from 'react';
 import ReactCanvasConfetti from 'react-canvas-confetti';
 import Confetti from '../components/confetti';
@@ -10,7 +11,7 @@ export default function Team() {
 
   return (
     <div className="bg-gray-100 dark:bg-gray-900 pb-16 pt-[4rem] lg:px-[10rem] sm:px-[5rem] md:px-[7rem] px-[3rem]">
-      <Confetti />
+      <Confetti activate={true} />
       <h1 className="mt-10 mb-5 text-4xl font-extrabold text-center text-gray-800 dark:text-gray-50">
         Meet our amazing team!
       </h1>
@@ -29,11 +30,16 @@ export default function Team() {
                       className="flex flex-col justify-between bg-white dark:shadow-2xl dark:bg-slate-800 rounded-lg shadow-md pt-8 min-w-[17.5rem]"
                     >
                       <div className="px-6">
-                        <img
-                          className="mx-auto w-40 h-40  rounded-full object-cover drop-shadow-lg"
-                          alt={member.name}
-                          src={`https://drive.google.com/uc?export=view&id=${member.avatar}`}
-                        />
+                        {member.avatar ? (
+                          <img
+                            className="mx-auto w-40 h-40  rounded-full object-cover drop-shadow-lg"
+                            alt={member.name}
+                            src={`https://drive.google.com/uc?export=view&id=${member.avatar}`}
+                          />
+                        ) : (
+                          <UserCircleIcon className="h-40 w-40 mx-auto text-gray-200 dark:text-gray-600" />
+                        )}
+
                         <div className="py-3">
                           <p className="text-center font-semibold">
                             {member.name}

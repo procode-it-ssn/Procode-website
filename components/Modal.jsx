@@ -1,5 +1,5 @@
 import { Dialog, Transition } from '@headlessui/react';
-import { XIcon } from '@heroicons/react/solid';
+import { UserCircleIcon, XIcon } from '@heroicons/react/solid';
 import Image from 'next/image';
 import { Fragment } from 'react';
 
@@ -53,16 +53,21 @@ export default function Modal({
                       </button>
                     </div>
                     <div className="flex items-center sm:space-x-4 text-center sm:text-left flex-col sm:flex-row">
-                      <Image
-                        className="mx-auto w-40 h-40 border-4 border-gray-50 rounded-full object-cover"
-                        alt="Team Member Avatar"
-                        loader={() =>
-                          `https://drive.google.com/uc?export=view&id=${data.avatar}`
-                        }
-                        src={`https://drive.google.com/uc?export=view&id=${data.avatar}`}
-                        width={90}
-                        height={90}
-                      />
+                      {data.avatar ? (
+                        <Image
+                          className="mx-auto w-40 h-40 border-4 border-gray-50 rounded-full object-cover"
+                          alt="Team Member Avatar"
+                          loader={() =>
+                            `https://drive.google.com/uc?export=view&id=${data.avatar}`
+                          }
+                          src={`https://drive.google.com/uc?export=view&id=${data.avatar}`}
+                          width={90}
+                          height={90}
+                        />
+                      ) : (
+                        <UserCircleIcon className="h-[100px] w-[100px]  text-gray-200 dark:text-gray-500" />
+                      )}
+
                       <div className="flex flex-col leading-6 sm:mt-0 mt-3">
                         <div className="text-lg text-slate-900 font-semibold dark:text-slate-300">
                           {data.name}

@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import ReactCanvasConfetti from 'react-canvas-confetti';
 
 const canvasStyles = {
@@ -10,7 +10,9 @@ const canvasStyles = {
   left: 0,
 };
 
-export default function Confetti() {
+export default function Confetti({ activate = false }) {
+  const [start, setStart] = useState(activate);
+
   const refAnimationInstance = useRef(null);
 
   const getInstance = useCallback((instance) => {
@@ -42,10 +44,12 @@ export default function Confetti() {
   }, [makeShot]);
 
   useEffect(() => {
-    setTimeout(function () {
-      fire();
-    }, 5000);
-  });
+    if (start)
+      setTimeout(function () {
+        fire();
+      }, 4000);
+    setStart(false);
+  }, [start]);
 
   return (
     <>

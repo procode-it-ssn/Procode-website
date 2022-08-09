@@ -2,6 +2,7 @@
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, MoonIcon, SunIcon, XIcon } from '@heroicons/react/outline';
 import { useTheme } from 'next-themes';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
@@ -25,7 +26,7 @@ export default function Navbar() {
       className="dark:bg-gray-800 bg-white shadow-md fixed w-full z-50"
     >
       {({ open }) => (
-        <>
+        <div>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -41,14 +42,16 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                  <Image
+                    className="h-8 w-auto"
+                    src="/procode-logo.svg"
                     alt="Workflow"
+                    height={42}
+                    width={42}
                   />
                   <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
+                    className="hidden lg:block h-[20px] ml-4 w-auto"
+                    src="/procode-text.svg"
                     alt="Workflow"
                   />
                 </div>
@@ -59,7 +62,7 @@ export default function Navbar() {
                         <div
                           className={classNames(
                             router.pathname == item.href
-                              ? 'cursor-pointer bg-gradient-to-tr  from-cyan-400  to-blue-500 drop-shadow-lg  text-gray-50 dark:text-white'
+                              ? 'cursor-pointer bg-gradient-to-tr  from-cyan-500  to-blue-700 drop-shadow-lg  text-gray-50 dark:text-white'
                               : 'cursor-pointer dark:text-gray-300 text-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white',
                             'px-3 py-2 rounded-md font-semibold'
                           )}
@@ -68,6 +71,7 @@ export default function Navbar() {
                         </div>
                       </Link>
                     ))}
+                    <div className="h-fit w-[5rem]"></div>
                   </div>
                 </div>
               </div>
@@ -115,7 +119,7 @@ export default function Navbar() {
               ))}
             </div>
           </Disclosure.Panel>
-        </>
+        </div>
       )}
     </Disclosure>
   );

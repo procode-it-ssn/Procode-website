@@ -18,6 +18,7 @@
     "react-dom": "18.2.0",
     "react-particles": "^2.1.4",
     "react-tsparticles": "^2.1.4",
+    "react-typed": "^1.2.0",
     "tsparticles": "^2.1.4"
   },
   "devDependencies": {
