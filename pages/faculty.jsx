@@ -1,9 +1,15 @@
 import { AcademicCapIcon, MailIcon, PhoneIcon } from '@heroicons/react/solid';
+import Head from 'next/head';
+import Navbar from '../components/Navbar';
 
 export default function Faculty() {
   return (
     <>
-      <div className="flex bg-gray-100 justify-center items-center min-h-screen w-full dark:bg-gray-900 pt-[5rem] px-3">
+      <Head>
+        <title>Events</title>
+      </Head>
+      <Navbar />
+      <main className="flex bg-gray-100 justify-center items-center min-h-screen w-full dark:bg-gray-900 pt-[5rem] px-3 pb-4">
         <figure className="bg-white shadow-lg relative flex flex-col-reverse rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
           <blockquote className="flex flex-col gap-3 mt-6 text-slate-700 dark:text-slate-300 max-w-5xl">
             <p>
@@ -100,7 +106,7 @@ export default function Faculty() {
             </div>
           </figcaption>
         </figure>
-      </div>
+      </main>
     </>
   );
 }

@@ -1,5 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Disclosure } from '@headlessui/react';
+import { Disclosure, Transition } from '@headlessui/react';
 import { MenuIcon, MoonIcon, SunIcon, XIcon } from '@heroicons/react/outline';
 import { useTheme } from 'next-themes';
 import Image from 'next/image';
@@ -41,21 +40,24 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center">
-                  <Image
-                    className="h-8 w-auto"
-                    src="/procode-logo.svg"
-                    alt="Workflow"
-                    height={42}
-                    width={42}
-                  />
-                  <img
-                    className="hidden lg:block h-[20px] ml-4 w-auto"
-                    src="/procode-text.svg"
-                    alt="Workflow"
-                  />
-                </div>
-                <div className="hidden sm:flex justify-center w-full">
+                <Link href={'/'}>
+                  <div className="flex-shrink-0 flex items-center cursor-pointer">
+                    <Image
+                      className="h-8 w-auto"
+                      src="/procode-logo.svg"
+                      alt="Workflow"
+                      height={42}
+                      width={42}
+                    />
+                    <img
+                      className="hidden lg:block h-[20px] ml-4 w-auto"
+                      src="/procode-text.svg"
+                      alt="Workflow"
+                    />
+                  </div>
+                </Link>
+
+                <div className="hidden sm:flex justify-left ml-10 w-full">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <Link key={item.name} href={item.href}>
@@ -64,14 +66,13 @@ export default function Navbar() {
                             router.pathname == item.href
                               ? 'cursor-pointer bg-gradient-to-tr  from-cyan-500  to-blue-700 drop-shadow-lg  text-gray-50 dark:text-white'
                               : 'cursor-pointer dark:text-gray-300 text-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white',
-                            'px-3 py-2 rounded-md font-semibold'
+                            'px-6 py-2 rounded-md font-semibold'
                           )}
                         >
                           {item.name}
                         </div>
                       </Link>
                     ))}
-                    <div className="h-fit w-[5rem]"></div>
                   </div>
                 </div>
               </div>
@@ -99,26 +100,38 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1">
-              {navigation.map((item) => (
-                <Disclosure.Button key={item.name} className="w-full text-left">
-                  <Link href={item.href}>
+          <Transition
+            enter="transition duration-100 ease-out"
+            enterFrom="transform scale-95 opacity-0"
+            enterTo="transform scale-100 opacity-100"
+            leave="transition duration-75 ease-out"
+            leaveFrom="transform scale-100 opacity-100"
+            leaveTo="transform scale-95 opacity-0"
+          >
+            <Disclosure.Panel className="sm:hidden">
+              <div className="px-2 pt-2 pb-3 space-y-1">
+                {navigation.map((item) => (
+                  <Disclosure.Button
+                    key={item.name}
+                    className="w-full text-left"
+                    as={Link}
+                    href={item.href}
+                  >
                     <div
                       className={classNames(
                         router.pathname == item.href
                           ? 'bg-gradient-to-tr from-cyan-400 to-blue-500 text-white'
                           : 'dark:text-gray-300 text-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white',
-                        'block px-3 py-2 rounded-md text-base font-medium'
+                        'block px-3 py-2 rounded-md text-base font-medium cursor-pointer'
                       )}
                     >
                       {item.name}
                     </div>
-                  </Link>
-                </Disclosure.Button>
-              ))}
-            </div>
-          </Disclosure.Panel>
+                  </Disclosure.Button>
+                ))}
+              </div>
+            </Disclosure.Panel>
+          </Transition>
         </div>
       )}
     </Disclosure>

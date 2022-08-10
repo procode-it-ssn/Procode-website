@@ -1,10 +1,16 @@
+import Head from 'next/head';
 import Image from 'next/image';
 import ReactTyped from 'react-typed';
+import Navbar from '../components/Navbar';
 import ParticlesComponent from '../components/Particles';
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Home</title>
+      </Head>
+      <Navbar />
       <div className="absolute right-0 left-0 min-h-screen w-full flex justify-center items-center flex-col">
         <Image
           className="h-8 w-auto"
