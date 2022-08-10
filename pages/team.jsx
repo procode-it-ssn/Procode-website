@@ -78,12 +78,14 @@ export default function Team() {
               </div>
             );
           })}
-          <Modal
-            isopen={isOpen}
-            data={memberData}
-            socials={memberData.socials}
-            closeFunc={() => setIsOpen(false)}
-          />
+          {isOpen && (
+            <Modal
+              isopen={isOpen}
+              data={memberData}
+              socials={memberData.socials}
+              closeFunc={() => setIsOpen(false)}
+            />
+          )}
         </div>
       </main>
     </>
