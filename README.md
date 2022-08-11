@@ -1,3 +1,16 @@
+# Procode Website 2022-23
+<p align="center">
+  <img src="https://github.com/procode-it-ssn/Procode-website/blob/main/public/procode-logo.svg" height="300" width="300"/>
+</p>
+<p align="center">
+  <img src="https://github.com/procode-it-ssn/Procode-website/blob/main/public/procode-text.svg" width="300"/>
+</p>
+
+<br />
+<br />
+<br />
+                      
+             
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
