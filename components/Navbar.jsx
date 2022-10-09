@@ -57,7 +57,7 @@ export default function Navbar() {
                   </div>
                 </Link>
 
-                <div className="hidden sm:flex justify-left ml-10 w-full">
+                <div className="hidden sm:flex justify-center lg:mr-24 ml-10 lg:ml-0 w-full">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <Link key={item.name} href={item.href}>
@@ -83,7 +83,6 @@ export default function Navbar() {
                     onClick={() => setTheme('dark')}
                     className="focus:outline-none dark:hover:bg-gray-700 p-2 rounded-full text-gray-500 hover:bg-gray-100 hover:text-gray-600 dark:text-gray-400 dark:hover:text-white"
                   >
-                    <span className="sr-only">View notifications</span>
                     <MoonIcon className="h-6 w-6" aria-hidden="true" />
                   </button>
                 ) : (
@@ -92,7 +91,6 @@ export default function Navbar() {
                     onClick={() => setTheme('light')}
                     className="focus:outline-none dark:hover:bg-gray-700 p-2 rounded-full text-gray-600 hover:bg-gray-100 hover:text-gray-800 dark:text-gray-400 dark:hover:text-white"
                   >
-                    <span className="sr-only">View notifications</span>
                     <SunIcon className="h-6 w-6" aria-hidden="true" />
                   </button>
                 )}
