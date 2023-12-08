@@ -3,117 +3,47 @@
         "title": "Office Bearers",
         "members": [
             {
-                "name": "Sanjay Ram S",
-                "role": "President & DSA Head",
-                "avatar": "1GLKBLhsyrLlpchvvJXUTc3-Zaef5c78r",
+                "name": "Nithin Balaji",
+                "role": "President",
+                "avatar": "",
                 "about": null,
                 "year": "IV",
                 "socials": {
                     "github": null,
                     "linkedin": null,
-                    "instagram": "sanjayram21"
-                  }
-            },
-            {
-                "name": "Nabeel Hussain M N",
-                "role": "Vice President",
-                "avatar": "1RmV-hcVF6_C-0AIVGa27_JrCva-ndRoQ",
-                "about": null,
-                "year": "IV",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "_noble001"
-                  }
-            }
-        ]
-    },
-    {
-        "title": "Team Heads",
-        "members": [
-            {
-                "name": "R. Manoj",
-                "role": "Tech Head",
-                "avatar": "18Y-0ikdNNzpblU0iKBhoEyolmmhmPi0D",
-                "about": null,
-                "year": "IV",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": null
-                  }
-            },
-            {
-                "name": "Gokulram A",
-                "role": "Web Development Head",
-                "avatar": "1eRhWn2wzH9gUGOvRTtTABD6CM1Abq9eX",
-                "about": "Hey there 👋  I'm a 19 year old tech enthusiast and a Fullstack Web Developer!",
-                "year": "III",
-                "socials": {
-                    "github": "GokulramGHV",
-                    "linkedin": "gokulrama",
-                    "instagram": "gokul_ghv"
+                    "instagram": "thenithinbalaji"
                   }
             },
             {
                 "name": "A. Anand",
-                "role": "App Development Head",
+                "role": "Vice President",
                 "avatar": "13PktVDYg5kFD81U_5LHwDzqlUPHCTcGZ",
                 "about": null,
-                "year": "III",
+                "year": "IV",
                 "socials": {
                     "github": null,
                     "linkedin": null,
-                    "instagram": "ig_anand_a"
+                    "instagram": "soup_stix"
                   }
             },
             {
-                "name": "Dinesh S",
-                "role": "ML Head",
-                "avatar": "18VAtVNJtjPs86yA1q9PyNv_-GPXMdXLt",
+                "name": "B Prajeeth",
+                "role": "Secretary",
+                "avatar": "",
                 "about": null,
                 "year": "IV",
                 "socials": {
                     "github": null,
                     "linkedin": null,
-                    "instagram": "dineshsuresh60"
-                  }
-            }
-        ]
-    },
-    {
-        "title": "Event Heads",
-        "members": [
-            {
-                "name": "Anni Priscilla A",
-                "role": "Event Head",
-                "avatar": "1WGn9KsLyydDT1qH-Iql2FILO-UVQZcH4",
-                "about": null,
-                "year": "IV",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "annipriscilla"
-                  }
-            },
-            {
-                "name": "Nivetha SB",
-                "role": "Event Head",
-                "avatar": "1WwWeDNZVtWGGE9igAd3yEXHYscylvQvD",
-                "about": null,
-                "year": "III",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "nivetha_bala__"
+                    "instagram": "bprajeeth"
                   }
             },
             {
                 "name": "H Abdurrahman Lalsudhesh",
-                "role": "Event Head",
+                "role": "Treasurer",
                 "avatar": "1Z9GLUaNEL0kDeN00dKsqzjWMbd77fSuo",
                 "about": null,
-                "year": "III",
+                "year": "IV",
                 "socials": {
                     "github": null,
                     "linkedin": null,
@@ -123,38 +53,122 @@
         ]
     },
     {
-        "title": "Design, Marketing and Social Media Heads",
+        "title": "Team Heads",
         "members": [
             {
-                "name": "Naveen Raj A",
-                "role": "Design Head",
-                "avatar": null,
+                "name": "Saravanan J",
+                "role": "DSA Head",
+                "avatar": "",
+                "about": null,
+                "year": "IV",
+                "socials": {
+                    "github": null,
+                    "linkedin": null,
+                    "instagram":"saravanan_js_3"
+                  }
+            },
+            {
+                "name": "Sidharthan",
+                "role": "DSA Sub Head",
+                "avatar": "",
+                "about": null,
+                "year": "IV",
+                "socials": {
+                    "github": null,
+                    "linkedin": null,
+                    "instagram":"nahtraddis"
+                  }
+            },
+            {
+                "name": "Gokulram A",
+                "role": "Web Development Head",
+                "avatar": "1eRhWn2wzH9gUGOvRTtTABD6CM1Abq9eX",
+                "about": "Hey there 👋  I'm a 19 year old tech enthusiast and a Fullstack Web Developer!",
+                "year": "IV",
+                "socials": {
+                    "github": "GokulramGHV",
+                    "linkedin": "gokulrama",
+                    "instagram": "gokul_ghv"
+                  }
+            },
+            {
+                "name": "Selcia S",
+                "role": "Web Development Sub Head",
+                "avatar": "",
+                "about": "",
+                "year": "III",
+                "socials": {
+                    "github": null,
+                    "linkedin": null,
+                    "instagram": null
+                  }
+            },
+            {
+                "name": "Mithran K",
+                "role": "App Development Head",
+                "avatar": "17uwxxANRgu2pvmt9F9cmVCMKxdvwwCNt",
+                "about": null,
+                "year": "IV",
+                "socials": {
+                    "github": null,
+                    "linkedin": null,
+                    "instagram": "mithran_040"
+                }
+            },
+            {
+                "name": "Karthik Raja",
+                "role": "App Development Sub Head",
+                "avatar": "",
+                "about": null,
+                "year": "IV",
+                "socials": {
+                    "github": null,
+                    "linkedin": null,
+                    "instagram": "karthikraja_tp"
+                }
+            },
+            {
+                "name": "P Likhith Venkat",
+                "role": "AI&ML Head",
+                "avatar": "1zrBTrKBw2gM8cE0UIiZACLiFQmhbCMsn",
+                "about": null,
+                "year": "IV",
+                "socials": {
+                    "github": null,
+                    "linkedin": null,
+                    "instagram": "likhith_venkat"
+                  }
+            },
+            {
+                "name": "Priyanka",
+                "role": "AI&ML Sub Head",
+                "avatar": "",
                 "about": null,
                 "year": "III",
                 "socials": {
                     "github": null,
                     "linkedin": null,
-                    "instagram": "naveen_raj532"
+                    "instagram": "prinks_wiz"
                   }
             },
             {
-                "name": "Gunanicaa Arun",
-                "role": "Marketing Head",
-                "avatar": "14QR26G6LRuYkErR03_NoIf2lkyQjto1e",
+                "name": "Abijith",
+                "role": "AR&VR Head",
+                "avatar": "",
                 "about": null,
-                "year": "III",
+                "year": "IV",
                 "socials": {
                     "github": null,
                     "linkedin": null,
-                    "instagram": "gunanicaa_arun"
+                    "instagram": "abijith_la"
                   }
             },
             {
-                "name": "R. Nusaiba Afsheen",
-                "role": "Social Media Head",
-                "avatar": "1JJ5t6wE0COvI5LKC8KistFbJ2wJakiXq",
+                "name": "Abhishek",
+                "role": "AR&VR Sub Head",
+                "avatar": "",
                 "about": null,
-                "year": "III",
+                "year": "IV",
                 "socials": {
                     "github": null,
                     "linkedin": null,
@@ -164,66 +178,71 @@
         ]
     },
     {
+        "title": "Design, Marketing and Social Media Heads",
+        "members": [
+            {
+                "name": "Dineshkumar",
+                "role": "Design Head",
+                "avatar": null,
+                "about": null,
+                "year": "IV",
+                "socials": {
+                    "github": null,
+                    "linkedin": null,
+                    "instagram": "dines_hdk"
+                  }
+            },
+            {
+                "name": "Jessica",
+                "role": "Design Sub Head",
+                "avatar": "",
+                "about": null,
+                "year": "III",
+                "socials": {
+                    "github": null,
+                    "linkedin": null,
+                    "instagram": "jessica_pragalathan"
+                  }
+            },
+            {
+                "name": "Sasmitha B",
+                "role": "Social Media Head",
+                "avatar": "",
+                "about": null,
+                "year": "III",
+                "socials": {
+                    "github": null,
+                    "linkedin": "sasmitha-baskaran",
+                    "instagram": "hpr_sasmitha"
+                  }
+            }
+        ]
+    },
+    {
         "title": "Core Team Members",
         "members": [
             {
-                "name": "Vasudhevan S",
+                "name": "Surya",
                 "role": "Core Team Member",
-                "avatar": "13SvpkpvUj1oCxgQX0eqXH6x6QgFLE6d0",
+                "avatar": "",
                 "about": null,
                 "year": "IV",
                 "socials": {
                     "github": null,
                     "linkedin": null,
-                    "instagram": "the_dragon.reborn"
+                    "instagram": "surya_.3"
                   }
             },
             {
-                "name": "Bhavna Magendiran",
+                "name": "Vetrivel",
                 "role": "Core Team Member",
-                "avatar": "163JBvhdaFsMlXfRSuzJUu4oNk0HbYjp5",
+                "avatar": "",
                 "about": null,
                 "year": "IV",
                 "socials": {
                     "github": null,
                     "linkedin": null,
-                    "instagram": "bhav_na1509"
-                  }
-            },
-            {
-                "name": "Shreya PS",
-                "role": "Core Team Member",
-                "avatar": "1J9hGQjJwRdip7E59GNwKyh0gMWQWvzC9",
-                "about": null,
-                "year": "IV",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "shreya_ps_07"
-                  }
-            },
-            {
-                "name": "Ashwath S",
-                "role": "Core Team Member",
-                "avatar": "1uJNoV6QfasA05QHNy1fFWhTJ-IOgY7ss",
-                "about": null,
-                "year": "IV",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "ashwath_sridharan"
-                  }
-            },
-            {
-                "name": "Chirag Bheemaiah PK",
-                "role": "Core Team Member",
-                "avatar": "1waUgPpXIHSrz97LiPhvtrq8cJC8H4k_O",
-                "about": null,
-                "year": "IV",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "ashwath_sridharan"
+                    "instagram": "vetrivel__"
                   }
             },
             {
@@ -231,7 +250,7 @@
                 "role": "Core Team Member",
                 "avatar": "1-tbm5IvNRyoS-Z36-hNjLHkLKFJ8E5Qs",
                 "about": null,
-                "year": "III",
+                "year": "IV",
                 "socials": {
                     "github": null,
                     "linkedin": null,
@@ -239,101 +258,66 @@
                   }
             },
             {
-                "name": "Prithvikiran",
+                "name": "Sahithi",
                 "role": "Core Team Member",
-                "avatar": "13CQA7RJo7MHBwv-8eckDWPRfoZwSCtdY",
-                "about": null,
-                "year": "III",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "prithvikiran__"
-                  }
-            },
-            {
-                "name": "Swetha Subramanian",
-                "role": "Core Team Member",
-                "avatar": "14idHSwRiPC1qQiUU7JdNp1u2doPOGy30",
-                "about": null,
-                "year": "III",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "ukeg1rl"
-                  }
-            },
-            {
-                "name": "P Likhith Venkat",
-                "role": "Core Team Member",
-                "avatar": "1zrBTrKBw2gM8cE0UIiZACLiFQmhbCMsn",
-                "about": null,
-                "year": "III",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "likhith_venkat"
-                  }
-            },
-            {
-                "name": "Mithran K",
-                "role": "Core Team Member",
-                "avatar": "17uwxxANRgu2pvmt9F9cmVCMKxdvwwCNt",
-                "about": null,
-                "year": "III",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "mithran_040"
-                  }
-            },
-            {
-                "name": "B Prajeeth",
-                "role": "Core Team Member",
-                "avatar": "1nPs3hxJ5KdXNPD2BsMbe0ukxu_mQVPku",
-                "about": null,
-                "year": "III",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "bprajeeth"
-                  }
-            },
-            {
-                "name": "J. Deepak",
-                "role": "Core Team Member",
-                "avatar": "1AlG6znsJJRdrUWH9AkHP3rd9Umpk_Azr",
-                "about": null,
-                "year": "III",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "joseph_deepak"
-                  }
-            },
-            {
-                "name": "Meganathan Vijayakumar",
-                "role": "Core Team Member",
-                "avatar": "1yk4eD2uhOgw1wz8uwU9Udp9dbzhShPjy",
+                "avatar": "",
                 "about": null,
                 "year": "IV",
                 "socials": {
                     "github": null,
                     "linkedin": null,
-                    "instagram": "make_veejay"
+                    "instagram": "_.sahithi.rao._"
                   }
             },
             {
-                "name": "Nivas Muthu M G",
+                "name": "Subramanian",
                 "role": "Core Team Member",
-                "avatar": null,
+                "avatar": "",
                 "about": null,
-                "year": "IV",
+                "year": "III",
                 "socials": {
                     "github": null,
                     "linkedin": null,
                     "instagram": null
                   }
+            },
+            {
+                "name": "Prithik N",
+                "role": "Core Team Member",
+                "avatar": "",
+                "about": null,
+                "year": "III",
+                "socials": {
+                    "github": null,
+                    "linkedin": null,
+                    "instagram": "prithik_nataraj"
+                  }
+            },
+            {
+                "name": "Tejshree",
+                "role": "Core Team Member",
+                "avatar": "",
+                "about": null,
+                "year": "III",
+                "socials": {
+                    "github": null,
+                    "linkedin": null,
+                    "instagram": "_tejshree._"
+                  }
+            },
+            {
+                "name": "Nirranjana",
+                "role": "Core Team Member",
+                "avatar": "",
+                "about": null,
+                "year": "III",
+                "socials": {
+                    "github": null,
+                    "linkedin": null,
+                    "instagram": "nirranjana_.r"
+                  }
             }
+           
         ]
     }
 ]
