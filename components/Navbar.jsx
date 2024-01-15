@@ -9,7 +9,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Team', href: '/team' },
   { name: 'Faculty', href: '/faculty' },
-  { name: 'Events', href: '/events' },
+  // { name: 'Events', href: '/events' }, // have not deleted the events page incase we need them later but hid them from the navbar
 ];
 
 function classNames(...classes) {
