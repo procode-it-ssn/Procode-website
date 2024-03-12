@@ -40,7 +40,7 @@ export default function Team() {
                             <img
                               className="mx-auto w-40 h-40  rounded-full object-cover drop-shadow-lg"
                               alt={member.name}
-                              src={`https://drive.google.com/uc?export=view&id=${member.avatar}`}
+                              src={`https://drive.google.com/thumbnail?id=${member.avatar}&sz=w1000`}
                             />
                           ) : (
                             <UserCircleIcon className="h-40 w-40 mx-auto text-gray-200 dark:text-gray-600" />
@@ -103,4 +103,110 @@ export default function Team() {
               width={160}
               height={160}
             /> */
+
+
+
+
+            // {
+              //     "title": "Core Team Members",
+              //     "members": [
+              //         {
+              //             "name": "Surya",
+              //             "role": "Core Team Member",
+              //             "avatar": "1TdqHR1t8VR-Ph03XsLh6vW301pMohpT0",
+              //             "about": null,
+              //             "year": "IV",
+              //             "socials": {
+              //                 "github": null,
+              //                 "linkedin": null,
+              //                 "instagram": "surya_.3"
+              //               }
+              //         },
+              //         {
+              //             "name": "Vetrivel",
+              //             "role": "Core Team Member",
+              //             "avatar": "1ZGfHmFhSBlG7r_1fqJRjQnsuIzw-MwPM",
+              //             "about": null,
+              //             "year": "IV",
+              //             "socials": {
+              //                 "github": null,
+              //                 "linkedin": null,
+              //                 "instagram": "vetrivel__"
+              //               }
+              //         },
+              //         {
+              //             "name": "Ritheesh Kumar",
+              //             "role": "Core Team Member",
+              //             "avatar": "1R5gfmLwCszUcbmx5ZD6FsAcCtPk47Ddf",
+              //             "about": null,
+              //             "year": "IV",
+              //             "socials": {
+              //                 "github": null,
+              //                 "linkedin": null,
+              //                 "instagram": "ritheesh._"
+              //               }
+              //         },
+              //         {
+              //             "name": "Sahithi",
+              //             "role": "Core Team Member",
+              //             "avatar": "1LKTF0rAt8uzohU-HQmZNSGBqtuCisZU1",
+              //             "about": null,
+              //             "year": "IV",
+              //             "socials": {
+              //                 "github": null,
+              //                 "linkedin": null,
+              //                 "instagram": "_.sahithi.rao._"
+              //               }
+              //         },
+              //         {
+              //             "name": "Subramanian",
+              //             "role": "Core Team Member",
+              //             "avatar": "1hs2lyWL49OyhfLiKDRwC5G4wTcsf_-HD",
+              //             "about": null,
+              //             "year": "III",
+              //             "socials": {
+              //                 "github": null,
+              //                 "linkedin": null,
+              //                 "instagram": null
+              //               }
+              //         },
+              //         {
+              //             "name": "Prithik N",
+              //             "role": "Core Team Member",
+              //             "avatar": "",
+              //             "about": null,
+              //             "year": "III",
+              //             "socials": {
+              //                 "github": null,
+              //                 "linkedin": null,
+              //                 "instagram": "prithik_nataraj"
+              //               }
+              //         },
+              //         {
+              //             "name": "Tejshree",
+              //             "role": "Core Team Member",
+              //             "avatar": "1-svMZD-_eOlE4_jysH14YWI-xFjaGXwl",
+              //             "about": null,
+              //             "year": "III",
+              //             "socials": {
+              //                 "github": null,
+              //                 "linkedin": null,
+              //                 "instagram": "_tejshree._"
+              //               }
+              //         },
+              //         {
+              //             "name": "Nirranjana",
+              //             "role": "Core Team Member",
+              //             "avatar": "13GmKUv18TvO0-ENbURMJP8jTWvKd5QHM",
+              //             "about": null,
+              //             "year": "III",
+              //             "socials": {
+              //                 "github": null,
+              //                 "linkedin": null,
+              //                 "instagram": "nirranjana_.r"
+              //               }
+              //         }
+                     
+              //     ]
+              // }
 }

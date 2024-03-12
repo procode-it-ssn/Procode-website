@@ -58,9 +58,9 @@ export default function Modal({
                           className="mx-auto w-40 h-40 border-4 border-gray-50 rounded-full object-cover"
                           alt="Team Member Avatar"
                           loader={() =>
-                            `https://drive.google.com/uc?export=view&id=${data.avatar}`
+                            `https://drive.google.com/thumbnail?id=${data.avatar}&sz=w1000`
                           }
-                          src={`https://drive.google.com/uc?export=view&id=${data.avatar}`}
+                          src={`https://drive.google.com/thumbnail?id=${data.avatar}&sz=w1000`}
                           width={90}
                           height={90}
                         />

@@ -5,7 +5,7 @@
             {
                 "name": "Nithin Balaji",
                 "role": "President",
-                "avatar": "",
+                "avatar": "1csUcr-xEyMI_3ow9p75ZwPIemENds0OR",
                 "about": null,
                 "year": "IV",
                 "socials": {
@@ -17,7 +17,7 @@
             {
                 "name": "A. Anand",
                 "role": "Vice President",
-                "avatar": "13PktVDYg5kFD81U_5LHwDzqlUPHCTcGZ",
+                "avatar": "1Ky2iErl2DCiSk1TQwS-AxKxCzo4dZCy9",
                 "about": null,
                 "year": "IV",
                 "socials": {
@@ -29,19 +29,19 @@
             {
                 "name": "B Prajeeth",
                 "role": "Secretary",
-                "avatar": "",
-                "about": null,
+                "avatar": "1-HWDYGFLM0xzX_wQaFqJWPp9FhbHaM1r",
+                "about": "My motto be like EAT-SLEEP-CODE 😎",
                 "year": "IV",
                 "socials": {
-                    "github": null,
-                    "linkedin": null,
+                    "github": "bprajeeth",
+                    "linkedin": "bprajeeth",
                     "instagram": "bprajeeth"
                   }
             },
             {
                 "name": "H Abdurrahman Lalsudhesh",
                 "role": "Treasurer",
-                "avatar": "1Z9GLUaNEL0kDeN00dKsqzjWMbd77fSuo",
+                "avatar": "1JJTVi3iL5_MpJ_BmduurU9JLZh_HQ6tV",
                 "about": null,
                 "year": "IV",
                 "socials": {
@@ -58,7 +58,7 @@
             {
                 "name": "Saravanan J",
                 "role": "DSA Head",
-                "avatar": "",
+                "avatar": "17Dm0tnb2VeP_xT24oKMBK4rKJFs58Dwp",
                 "about": null,
                 "year": "IV",
                 "socials": {
@@ -70,7 +70,7 @@
             {
                 "name": "Sidharthan",
                 "role": "DSA Sub Head",
-                "avatar": "",
+                "avatar": "10v4bK2ATfMkk2nTFaJ79as-lO6kZlzFu",
                 "about": null,
                 "year": "IV",
                 "socials": {
@@ -82,7 +82,7 @@
             {
                 "name": "Gokulram A",
                 "role": "Web Development Head",
-                "avatar": "1eRhWn2wzH9gUGOvRTtTABD6CM1Abq9eX",
+                "avatar": "1yaIhFZX3XPNjPsxkaFuVUMqVN12sGXm6",
                 "about": "Hey there 👋  I'm a 19 year old tech enthusiast and a Fullstack Web Developer!",
                 "year": "IV",
                 "socials": {
@@ -94,7 +94,7 @@
             {
                 "name": "Selcia S",
                 "role": "Web Development Sub Head",
-                "avatar": "",
+                "avatar": "177k3uH6oe2vJvnFP_ATKLII0U6qzmh8C",
                 "about": "",
                 "year": "III",
                 "socials": {
@@ -106,7 +106,7 @@
             {
                 "name": "Mithran K",
                 "role": "App Development Head",
-                "avatar": "17uwxxANRgu2pvmt9F9cmVCMKxdvwwCNt",
+                "avatar": "17J-uCkW4ytyrL2uPUvOaKcs9x9N13FSZ",
                 "about": null,
                 "year": "IV",
                 "socials": {
@@ -118,7 +118,7 @@
             {
                 "name": "Karthik Raja",
                 "role": "App Development Sub Head",
-                "avatar": "",
+                "avatar": "1jkTlx_kvxFTpsJH_7EnMFfKSwlGK6_ha",
                 "about": null,
                 "year": "IV",
                 "socials": {
@@ -130,7 +130,7 @@
             {
                 "name": "P Likhith Venkat",
                 "role": "AI&ML Head",
-                "avatar": "1zrBTrKBw2gM8cE0UIiZACLiFQmhbCMsn",
+                "avatar": "1N9_zdEwA__J8w56D48nZaKSm2s9yhZzR",
                 "about": null,
                 "year": "IV",
                 "socials": {
@@ -142,7 +142,7 @@
             {
                 "name": "Priyanka",
                 "role": "AI&ML Sub Head",
-                "avatar": "",
+                "avatar": "1vXHs6f9PyQWoFDD5_uqNtSv70l3wpP8G",
                 "about": null,
                 "year": "III",
                 "socials": {
@@ -154,7 +154,7 @@
             {
                 "name": "Abijith",
                 "role": "AR&VR Head",
-                "avatar": "",
+                "avatar": "1txxbybrdH8u5sGxOa-imV0tSTMaugpvw",
                 "about": null,
                 "year": "IV",
                 "socials": {
@@ -166,7 +166,7 @@
             {
                 "name": "Abhishek",
                 "role": "AR&VR Sub Head",
-                "avatar": "",
+                "avatar": "15yH48mq2KBMXfAlH50fOr6iJz-VzWoyX",
                 "about": null,
                 "year": "IV",
                 "socials": {
@@ -195,7 +195,7 @@
             {
                 "name": "Jessica",
                 "role": "Design Sub Head",
-                "avatar": "",
+                "avatar": "1PDadzCXHRhTJpgerxRcBKEh440M5Ix-_",
                 "about": null,
                 "year": "III",
                 "socials": {
@@ -207,7 +207,7 @@
             {
                 "name": "Sasmitha B",
                 "role": "Social Media Head",
-                "avatar": "",
+                "avatar": "15WOdaZ5eGlAXkz8bOmez125e-ynGk6rz",
                 "about": null,
                 "year": "III",
                 "socials": {
@@ -217,107 +217,6 @@
                   }
             }
         ]
-    },
-    {
-        "title": "Core Team Members",
-        "members": [
-            {
-                "name": "Surya",
-                "role": "Core Team Member",
-                "avatar": "",
-                "about": null,
-                "year": "IV",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "surya_.3"
-                  }
-            },
-            {
-                "name": "Vetrivel",
-                "role": "Core Team Member",
-                "avatar": "",
-                "about": null,
-                "year": "IV",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "vetrivel__"
-                  }
-            },
-            {
-                "name": "Ritheesh Kumar",
-                "role": "Core Team Member",
-                "avatar": "1-tbm5IvNRyoS-Z36-hNjLHkLKFJ8E5Qs",
-                "about": null,
-                "year": "IV",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "ritheesh._"
-                  }
-            },
-            {
-                "name": "Sahithi",
-                "role": "Core Team Member",
-                "avatar": "",
-                "about": null,
-                "year": "IV",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "_.sahithi.rao._"
-                  }
-            },
-            {
-                "name": "Subramanian",
-                "role": "Core Team Member",
-                "avatar": "",
-                "about": null,
-                "year": "III",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": null
-                  }
-            },
-            {
-                "name": "Prithik N",
-                "role": "Core Team Member",
-                "avatar": "",
-                "about": null,
-                "year": "III",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "prithik_nataraj"
-                  }
-            },
-            {
-                "name": "Tejshree",
-                "role": "Core Team Member",
-                "avatar": "",
-                "about": null,
-                "year": "III",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "_tejshree._"
-                  }
-            },
-            {
-                "name": "Nirranjana",
-                "role": "Core Team Member",
-                "avatar": "",
-                "about": null,
-                "year": "III",
-                "socials": {
-                    "github": null,
-                    "linkedin": null,
-                    "instagram": "nirranjana_.r"
-                  }
-            }
-           
-        ]
     }
 ]
+
