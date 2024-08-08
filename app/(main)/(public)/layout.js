@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import "../../globals.css";
 import Providers from "@/context/Providers";
 import { Montserrat, DM_Sans, Poppins } from "next/font/google";
+import Footer from "@/components/Footer";
 
 export const revalidate = 0;
 
@@ -47,6 +48,7 @@ export default async function DashboardRootLayout({ children }) {
         <Providers>
           <Navbar />
           {children}
+          <Footer/>
         </Providers>
       </body>
     </html>
