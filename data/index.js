@@ -130,8 +130,8 @@ export const TeamMembers = [
         year: "III",
         image: AshwinKumar,
         socials: {
-          github: null,
-          linkedin: null,
+          github: "https://github.com/Ashwin0006",
+          linkedin: "https://www.linkedin.com/in/ashwin-kumar-18872327a/",
           instagram: null,
         },
       },

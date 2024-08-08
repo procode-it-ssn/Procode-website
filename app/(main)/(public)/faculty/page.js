@@ -9,17 +9,20 @@ export default function Faculty() {
         <figure className="bg-white shadow-lg relative flex flex-col-reverse rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
           <blockquote className="flex flex-col gap-3 mt-6 text-slate-700 dark:text-slate-300 max-w-5xl">
             <p>
-              S. Sasirekha has over 13 years of teaching experience and 1 year of industrial experience. She received her B.E (IT) degree from Periyar University, M.E. in Computer and Communication from SSN College of Engineering (Silver Medallist), Anna University, Chennai and Ph.D. from Anna University, Chennai in the area of SOA and Semantic based IoT middleware.
+            Dr. S. Karthika, has over 15 years of teaching and 2 years of exclusive research experience in computational social science.
             </p>
             <p>
               {' '}
-              She joined SSN College of Engineering in the year 2007 and is currently working as an Associate Professor in the Department of Information Technology. Her current research areas of interest include Web Based Application, Service Oriented Architecture, Internet of Things, Semantic Web Services, Ontological Engineering and Web of Things. To her credit she has published more than 35 papers in International and National Journals and Conferences. She is a recognized Anna University research supervisor to guide Ph.D. /M.S. candidates.
+              She received a B.E (CSE) degree from Avinashilingam University and completed her M.E (CSE) from Anna University. She has earned her Ph.D. degree under the Faculty of Information and Communication Engineering from Anna University.
             </p>{' '}
             <p>
-            She has taught courses like Service Oriented Architecture, Cloud Computing, Component Based Technology, Data Warehouse and Mining, Fundamentals of Computing and Programming, Database Technology, Web Programming, Web Services, Mobile Communication and C Programming for UG programmes and Advanced Databases, Web Technologies, XML and Web Services, Internet and Java Programming and Cloud Computing for PG programme. She has guided about 37 UG projects, 7 PG projects and 17 student internal funded projects so far. She has organized/attended many externally/internally funded Conferences/Workshops/Seminars/Guest Lectures at National and International levels.
+            During her Ph.D, she developed a system for key player identification using behavioural analysis in covert networks. The system used novel centrality-based outlier analysis algorithm to recognize the influencers, and analysed the fragmentation and resilience of the covert network using graph theoretic approach. She carried her research work as Junior Research Fellow under UGC-BSR fellowship.
             </p>
             <p>
-            She is an active member of IEEE and ACM professional society. She is also an active reviewer for reputed publishers like IOS Press and IGI Global. She is also serving as the Technical Programme Committee member in various National and International conferences.
+            She adapts active learning elements (ALE) and outcome-based teaching methodology in the subjects like programming and design patterns, data analytics, machine learning, deep learning techniques, data structures, database, operating system and data warehousing and data mining.
+            </p>
+            <p>
+            She is a member of professional societies, including ACM, IEEE and ISTE. She is the co-ordinator of the Cyber Security Working Group (CSWG) under the Department of IT.
             </p>
             <div className="p-4 flex justify-center items-center gap-5">
               <div className="flex text-lg font-semibold gap-2">
@@ -32,7 +35,7 @@ export default function Faculty() {
                   <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                 </svg>
                 <a
-                  href="https://www.linkedin.com/in/sasirekha-selvakumar/"
+                  href="https://www.linkedin.com/in/drkarthikaveera/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -42,7 +45,7 @@ export default function Faculty() {
               <div className="flex text-lg font-semibold gap-1.5">
                 <GraduationCap className="h-7 w-7 text-gray-700 dark:text-slate-500" />
                 <a
-                  href="https://scholar.google.co.in/citations?user=Ahx_vxMAAAAJ&hl=en"
+                  href="https://scholar.google.com/citations?user=40_kOTQAAAAJ&hl=en"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -67,18 +70,18 @@ export default function Faculty() {
             </svg>
             <div className="flex flex-col leading-6 sm:mt-0 mt-3">
               <div className="text-lg text-slate-900 font-semibold dark:text-slate-300">
-              Dr. S. Sasirekha
+              Dr. S. Karthika
               </div>
               <div className="">Associate Professor</div>
               <div className="">B.E., M.E., Ph.D.</div>
               <div className="grid sm:grid-cols-2 sm:text-left text-center">
                 <div className="flex gap-1 mr-2 ">
                   <Mail className="h-5 w-5 mt-[3px] text-gray-700 dark:text-slate-500" />
-                  sasirekhas@ssn.edu.in
+                  skarthika@ssn.edu.in
                 </div>
                 <div className="flex gap-1 sm:justify-start justify-center">
                   <Phone className="h-4 w-4 mt-[4px] text-gray-700 dark:text-slate-500" />
-                  Extn: 372
+                  Extn: 371
                 </div>
               </div>
             </div>
