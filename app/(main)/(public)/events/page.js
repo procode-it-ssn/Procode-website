@@ -16,8 +16,8 @@ export default async function Events() {
   } else {
     const current_time = new Date();
 
-    past_events = events.filter(event => new Date(event.start_date) < current_time);
-    upcoming_events = events.filter(event => new Date(event.start_date) >= current_time);
+    past_events = events.filter(event => new Date(event.end_date) < current_time);
+    upcoming_events = events.filter(event => new Date(event.end_date) >= current_time);
   
     // console.log("Past Events:", past_events);
     // console.log("Upcoming Events:", upcoming_events);
