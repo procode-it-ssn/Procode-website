@@ -174,6 +174,10 @@ export default function procode_cup() {
           "text": "Participation is restricted to students from the IT department only."
         },
         {
+          "bold": "Team Size",
+          "text": "Participants can form a team size of 2 - 4 people."
+        },
+        {
           "bold": "Plagiarism Prohibited",
           "text": "All submissions must be original. Any external resources used should be properly cited."
         },
@@ -238,10 +242,10 @@ export default function procode_cup() {
 
       <div className="w-11/12 bg-gray-700 h-1 rounded-lg mt-20 dark:bg-purple-200"></div>
 
-      <div className="mt-10">
+      <div className="mt-10 w-5/12">
         <div
           className="flex flex-col items-center space-y-4 p-4 rounded-2xl shadow-lg bg-white dark:bg-gray-800
-        shadow-yellow-200/50 duration-300
+        shadow-yellow-200/50 duration-300 w-full h-40 justify-evenly
         "
         >
           <div className="text-xl font-bold">🏆 Prize Pool</div>
@@ -298,11 +302,11 @@ export default function procode_cup() {
           </h2>
         </a> */}
 
-        <h2 className="text-xl font-bold my-5 text-cyan-400 text-center">
+        <h2 className="text-xl font-bold my-5 text-blue-600 dark:text-cyan-400 text-center">
           ✍ Registration Link: Coming Soon...
         </h2>
 
-        <h2 className="text-xl font-bold my-5 text-red-500 dark:text-green-400">
+        <h2 className="text-xl font-bold my-5 text-blue-500 dark:text-green-400">
           📍Venue: IT Seminar Hall
         </h2>
       </div>
