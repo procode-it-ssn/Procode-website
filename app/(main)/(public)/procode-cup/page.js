@@ -170,6 +170,10 @@ export default function procode_cup() {
       "description": "",
       "rules": [
         {
+          "bold": "Eligibility Criteria",
+          "text": "Participation is restricted to students from the IT department only."
+        },
+        {
           "bold": "Plagiarism Prohibited",
           "text": "All submissions must be original. Any external resources used should be properly cited."
         },
