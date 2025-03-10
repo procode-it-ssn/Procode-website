@@ -244,9 +244,9 @@ export default function procode_cup() {
         shadow-yellow-200/50 duration-300
         "
         >
-          <div className="text-xl font-bold">🏆 Prizes</div>
+          <div className="text-xl font-bold">🏆 Prize Pool</div>
 
-          <div className="w-full p-3 bg-yellow-300 text-black text-center font-semibold rounded-xl shadow-md">
+          {/* <div className="w-full p-3 bg-yellow-300 text-black text-center font-semibold rounded-xl shadow-md">
             🥇 1st Place: <span className="font-bold">TBD</span>
           </div>
 
@@ -256,6 +256,10 @@ export default function procode_cup() {
 
           <div className="w-full p-3 bg-orange-300 text-black text-center font-semibold rounded-xl shadow-md">
             🥉 3rd Place: <span className="font-bold">TBD</span>
+          </div> */}
+
+          <div className="w-full p-3 bg-yellow-300 text-black text-center font-semibold rounded-xl shadow-md">
+            <span className="font-bold">TBD</span>
           </div>
         </div>
       </div>
