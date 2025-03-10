@@ -25,8 +25,8 @@ export default function MobileLink({
       className={cn(
         className,
         pathname == href
-          ? "cursor-pointer bg-gradient-to-tr  from-cyan-500  to-blue-700 drop-shadow-lg  text-gray-50 dark:text-white"
-          : "cursor-pointer dark:text-gray-300 text-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white",
+          ? "cursor-pointer bg-gradient-to-tr  from-cyan-500  to-blue-700 drop-shadow-lg  text-gray-50 dark:text-white text-center"
+          : "cursor-pointer dark:text-gray-300 text-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white text-center",
         "px-6 py-2 rounded-md font-semibold"
       )}
       {...props}
