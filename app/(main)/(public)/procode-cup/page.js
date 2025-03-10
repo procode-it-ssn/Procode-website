@@ -275,7 +275,35 @@ export default function procode_cup() {
       </div>
 
       <div className="mt-10 flex flex-col items-start bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg mx-10">
-        <h2 className="text-xl font-bold mb-2 text-red-400">📜 Guidelines:</h2>
+        <h2 className="text-3xl font-bold mb-2 text-red-400">📜 Guidelines:</h2>
+        <div className="flex justify-center items-start flex-col w-full mt-5">
+          <h1 className="text-3xl mb-3 dark:text-blue-300 relative">
+            ProCoDe Cup Format
+
+            <div className="sm:relative left-1/4 mt-2">
+              <h1 className="text-2xl mb-3 dark:text-blue-200 font-bold">
+                Round 1: PPT Format:
+              </h1>
+
+              <h2 className="my-2 text-lg dark:text-white sm:relative left-1/4">
+                <ul className="list-disc list-inside font-bold space-y-1">
+                  <li>Problem Statement</li>
+                  <li>Proposed Solution</li>
+                  <li>Block Diagram</li>
+                  <li>Tech Stack</li>
+                  <li>Feature List</li>
+                  <li>Mock Design (optional)</li>
+                  <li>Scalability</li>
+                  <li>Conclusions</li>        
+                </ul>
+              </h2>
+            </div>
+            
+          </h1>
+
+          
+        </div>
+
         {
           project_guidelines.map((guideline, index) => {
             return(
@@ -295,6 +323,9 @@ export default function procode_cup() {
             )
           })
         }
+
+        
+        
 
         {/* <a href="https://google.com" target="_blank" rel="noopener noreferrer">
           <h2 className="text-xl font-bold my-5 text-cyan-400 underline">
