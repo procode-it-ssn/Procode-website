@@ -265,9 +265,9 @@ export default function procode_cup() {
       <div className="mt-10 flex flex-col items-start bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg mx-10">
         <h2 className="text-xl font-bold mb-2 text-red-400">📜 Guidelines:</h2>
         {
-          project_guidelines.map((guideline) => {
+          project_guidelines.map((guideline, index) => {
             return(
-              <div className="my-5">
+              <div className="my-5" key={index}>
               <h1 className="text-3xl mb-3 dark:text-blue-300">
                 {guideline.title}
               </h1>
@@ -277,7 +277,7 @@ export default function procode_cup() {
               </h2>
               
               <ul className="list-disc list-inside space-y-1">
-                {guideline.rules.map((rule) => <li><b className="sm:text-md">{rule.bold}: </b>{rule.text}</li>)}
+                {guideline.rules.map((rule) => <li key={index}><b className="sm:text-md">{rule.bold}: </b>{rule.text}</li>)}
               </ul>
               </div>
             )
