@@ -12,7 +12,7 @@ export default function TimelineCup({ events }) {
           const isLeft = index % 2 === 0;
           if(name == "Registration & Idea Submissions") {
             return (
-              <a href="#reg-link">
+              <a href="#reg-link" key={name + start_date}>
                 <TimelineCard
                   key={name + start_date}
                   start_date={start_date}
@@ -26,7 +26,7 @@ export default function TimelineCup({ events }) {
           }
           if(name == "Problem Statement Release") {
             return (
-              <a href="#ps-statements">
+              <a href="#ps-statements" key={name + start_date}>
                 <TimelineCard
                   key={name + start_date}
                   start_date={start_date}
