@@ -10,15 +10,45 @@ export default function TimelineCup({ events }) {
       <div className="flex flex-col">
         {events.map(({ name, description, start_date }, index) => {
           const isLeft = index % 2 === 0;
-          return (
-            <TimelineCard
-              key={name + start_date}
-              start_date={start_date}
-              name={name}
-              description={description}
-              isLeft={isLeft}
-            />
-          );
+          if(name == "Registration & Idea Submissions") {
+            return (
+              <a href="#reg-link">
+                <TimelineCard
+                  key={name + start_date}
+                  start_date={start_date}
+                  name={name}
+                  description={description}
+                  isLeft={isLeft}
+                />
+              </a>
+              
+            );
+          }
+          if(name == "Problem Statement Release") {
+            return (
+              <a href="#ps-statements">
+                <TimelineCard
+                  key={name + start_date}
+                  start_date={start_date}
+                  name={name}
+                  description={description}
+                  isLeft={isLeft}
+                />
+              </a>
+              
+            );
+          }
+          else {
+            return (
+              <TimelineCard
+                key={name + start_date}
+                start_date={start_date}
+                name={name}
+                description={description}
+                isLeft={isLeft}
+              />
+            );
+          }
         })}
       </div>
     </div>

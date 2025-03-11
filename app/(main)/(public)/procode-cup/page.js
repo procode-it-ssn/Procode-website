@@ -231,7 +231,10 @@ export default function procode_cup() {
       <div className="w-11/12 bg-gray-700 h-1 rounded-lg mt-20 dark:bg-purple-200"></div>
 
       <div className="mt-10 w-full">
-        <div className="flex mb-10 justify-center text-4xl font-extrabold bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent">
+        <div
+          id="ps-statements"
+          className="flex mb-10 justify-center text-4xl font-extrabold bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent"
+        >
           Problem Statements
         </div>
         {domains.map((domain) => {
@@ -256,19 +259,21 @@ export default function procode_cup() {
         })}
 
         <div className="w-full flex justify-center items-center flex-wrap mt-5 flex-col">
-        <div className="mb-5 flex text-center m-2 justify-center text-4xl font-extrabold bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
-              <h1>Open Innovation</h1>
-            </div>
-          <div className="flex flex-col justify-center mx-3 items-centerf sm:w-1/2 p-5 dark:bg-gray-800 rounded-lg 
+          <div className="mb-5 flex text-center m-2 justify-center text-4xl font-extrabold bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
+            <h1>Open Innovation</h1>
+          </div>
+          <div
+            className="flex flex-col justify-center mx-3 items-centerf sm:w-1/2 p-5 dark:bg-gray-800 rounded-lg 
         shadow-purple-400/50 shadow-md duration-300 ease-in-out border-gray-400 border
                    hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50 
-                   hover:border-2 hover:border-cyan-500">
+                   hover:border-2 hover:border-cyan-500"
+          >
             <h2 className="text-center">
-              Projects are welcome under open innovation; however, they must align with one of the four 
-              specified domains: Finance, Healthcare & Well-being, Social Good & Accessibility or Education.
+              Projects are welcome under open innovation; however, they must
+              align with one of the four specified domains: Finance, Healthcare
+              & Well-being, Social Good & Accessibility or Education.
             </h2>
           </div>
-          
         </div>
       </div>
 
@@ -353,15 +358,23 @@ export default function procode_cup() {
           );
         })}
 
-        {/* <a href="https://google.com" target="_blank" rel="noopener noreferrer">
-          <h2 className="text-xl font-bold my-5 text-cyan-400 underline">
-            ✍ Registration Link: Click me!
-          </h2>
-        </a> */}
+        <a
+          href="https://forms.gle/EnyVkY6bUaw5sTk67"
+          target="_blank"
+          rel="noopener noreferrer"
+          id="reg-link"
+        >
+          <button className="text-xl font-bold my-5 px-6 py-3 rounded-lg 
+          bg-gradient-to-r from-cyan-500 to-blue-600 text-white 
+          shadow-md shadow-blue-300 transform transition duration-300 
+          hover:scale-105 hover:from-blue-600 hover:to-cyan-500 hover:shadow-pink-300">
+            ✍ Register Here!
+          </button>
+        </a>
 
-        <h2 className="text-xl font-bold my-5 text-blue-600 dark:text-cyan-400 text-center">
+        {/* <h2 className="text-xl font-bold my-5 text-blue-600 dark:text-cyan-400 text-center">
           ✍ Registration Link: Coming Soon...
-        </h2>
+        </h2> */}
 
         <h2 className="text-xl font-bold my-5 text-blue-500 dark:text-green-400">
           📍Venue: IT Seminar Hall
