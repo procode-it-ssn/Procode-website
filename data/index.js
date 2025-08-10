@@ -17,17 +17,18 @@ import Pranesh from "@/assets/tms/Pranesh Kumar_S_P.jpg";
 import Selcia from "@/assets/tms/Selcia_S.jpg";
 import Mathavaroopan from "@/assets/tms/Mathavaroopan_Sivakumar.jpg";
 import Lohit from "@/assets/tms/Lohit_Vignesh_S.jpg";
+import KathirvelanJ from "@/assets/tms/Kathirvelan_J.jpg";
 
 export const TeamMembers = [
   {
     title: "Office Bearers",
     members: [
       {
-        name: "Priyanka Vijaybaskar",
+        name: "Ashwin Kumar S",
         role: "President",
-        bio: "I'm Priyanka, and I'm driven to create user-centric products and am optimistic about technology. As the president of ProCoDe, I'm committed to creating impact, and I love leading my wonderful team.",
+        bio: "Hey! I’m Ashwin Kumar S — I love building modern full-stack applications and crafting smart software solutions. You’ll usually find me deep into code or tackling a DSA problem for fun 😉.",
         year: "IV",
-        image: PriyankaVijaybaskar,
+        image: AshwinKumar,
         socials: {
           github: null,
           linkedin: null,
@@ -35,11 +36,23 @@ export const TeamMembers = [
         },
       },
       {
-        name: "Sasmitha Baskaran",
+        name: "R Nithyasri",
         role: "Vice President",
-        bio: "I’m all about tech, constantly pumped to explore new trends and pick up fresh skills.",
+        bio: "Vannakam! This is Nithya , and somehow I ended up as  the VP for this year! I am someone who constantly oscillates between pursuing tech and all the other things that I wanna try out under the sky(classic confused vibes,lol) ProCoDe , from start , has always been a safe haven where u have people ready to discuss anything.. So Coding venuma, coding irukku.. fun venuma , fun definite ah irukku😂. I would love to take forward ProCoDe into being more of a support system for the juniors, so that they get utmost comfort and confidence while being in the department(play Anandam bgm roll🤭).. Quirky aspect , I am at my best from 1 - 5 am, so neither a night owl , nor an early bird , but definitely a victim of my mom's scoldings for a messed up sleep schedule and a body fuelled by Black Coffee! (Strong advice , Don't be like me!, get ur sleep guys 👍)",
         year: "IV",
-        image: SasmithaB,
+        image: NithyasriR,
+        socials: {
+          github: null,
+          linkedin: null,
+          instagram: null,
+        },
+      },
+      {
+        name: "Pranesh Kumar",
+        role: "Secretary",
+        bio: "Ctrl + Code 💻, Ctrl + Flight ✈️, Ctrl + Coffee ☕",
+        year: "IV",
+        image: Pranesh,
         socials: {
           github: null,
           linkedin: null,
@@ -52,11 +65,11 @@ export const TeamMembers = [
     title: "Team Heads and Sub Heads",
     members: [
       {
-        name: "Mitul Krishna",
+        name: "Vithula S",
         role: "AI/ML Head",
-        bio: "I’m into AI and ML, always cooking up cool apps and staying ahead of the tech curve.",
+        bio: "I teach machines to make sense of chaos — and sometimes they surprise me!",
         year: "IV",
-        image: MitulKrishna,
+        image: VithulaS,
         socials: {
           github: null,
           linkedin: null,
@@ -64,11 +77,11 @@ export const TeamMembers = [
         },
       },
       {
-        name: "Piriyadharshini A",
+        name: "Jayanth Natarajan ",
         role: "AI/ML Sub-head",
-        bio: "Hi, I'm Piriyadharshini A. I'm an avid reader and an enthusiastic learner. On a normal day, you can find me tuning my uke or reading a book.",
+        bio: "Well... I am not really a coding coding person😁, I started learning AIML from 2nd sem and thought anything could not be worse than this becz of the mathematical stuffs in those. But when I started implementing real world projects with chatgpt as my god it was easy 🤠. AIML is a domain which is v imp for hackathons and projects but its difficult and vast untill u find the correct road map for it. Together lets learn as well as implement real world projects😇. So I am here to just kick start ur AIML journey and there u go😊✨️",
         year: "III",
-        image: PiriyadharshiniA,
+        // image: PiriyadharshiniA,
         socials: {
           github: null,
           linkedin: null,
@@ -79,7 +92,7 @@ export const TeamMembers = [
         name: "Mathavaroopan Sivakumar",
         role: "DSA/CP head",
         bio: "I'm a competitive programmer with a passion for solving challenging problems. I also love building web applications using the MERN stack, combining my skills in coding competitions and web development.",
-        year: "III",
+        year: "IV",
         image: Mathavaroopan,
         socials: {
           github: null,
@@ -88,23 +101,11 @@ export const TeamMembers = [
         },
       },
       {
-        name: "Dhanush A",
+        name: "S Akshayalakshmi",
         role: "DSA/CP Sub-Head",
-        bio: "Pre-final year Information Technology student at SSN, passionate MERN stack developer crafting robust applications. Proficient in problem-solving and competitive programming, continuously enhancing skills in data structures and algorithms to deliver efficient solutions.",
+        bio: "Heyooo I'm super fun to hang out with, very friendly nice, enthusiastic, full of energy, zuper ready to learn and one niceeeee personnnnn lessgoooooo!!!!! (Please frame this up nicely for me thank youuuu)(Just kidding, lemme know if you'd like a serious write up! 😃)",
         year: "III",
-        image: Dhanush,
-        socials: {
-          github: null,
-          linkedin: null,
-          instagram: null,
-        },
-      },
-      {
-        name: "Selcia S",
-        role: "Software Development Head ",
-        bio: "Passionate about tech and exploring the unknown. Bio in progress—just like my latest project. 🚧💻",
-        year: "IV",
-        image: Selcia,
+        // image: Dhanush,
         socials: {
           github: null,
           linkedin: null,
@@ -113,10 +114,22 @@ export const TeamMembers = [
       },
       {
         name: "Lohit Vignesh S",
-        role: "Web Development Sub Head",
+        role: "Software Development Head ",
         bio: "Enthusiastic web developer who loves creating sleek, functional websites. Passionate about game development, and cybersecurity, always eager to explore new technologies and exciting projects.",
-        year: "III",
+        year: "IV",
         image: Lohit,
+        socials: {
+          github: null,
+          linkedin: null,
+          instagram: null,
+        },
+      },
+      {
+        name: "Irfan Akthar A ",
+        role: "Web Development Sub Head",
+        bio: "known for his coding acumen and his impecable(albeit rarely used) debate skills, this emo looking guy surprises you with his charm and spreads joy wherever he goes",
+        year: "III",
+        // image: Lohit,
         socials: {
           github: "dotzero27",
           linkedin: "lohitv",
@@ -124,11 +137,11 @@ export const TeamMembers = [
         },
       },
       {
-        name: "Ashwin Kumar S",
+        name: "Kathirvelan J",
         role: "App Development Sub-Head",
-        bio: "Passionate about mobile application and full stack web development. Enthusiastic SDE, team player, and quick learner.",
+        bio: "Your App Dev Sub-Head, Kathir — here to make sure all the cool stuff in your head ends up working on your phone (after only five crashes and a panic attack)",
         year: "III",
-        image: AshwinKumar,
+        image: KathirvelanJ,
         socials: {
           github: "https://github.com/Ashwin0006",
           linkedin: "https://www.linkedin.com/in/ashwin-kumar-18872327a/",
