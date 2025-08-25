@@ -1,7 +1,7 @@
 //Member Images
 import AshwinKumar from "@/assets/tms/Ashwin_Kumar_S.jpg";
 import NithyasriR from "@/assets/tms/Nithyasri_R.jpg";
-import Pranesh from "@/assets/tms/Pranesh Kumar_S_P.jpg";
+import Pranesh from "@/assets/tms/Pranesh_Kumar_S_P.jpg";
 import Mathavaroopan from "@/assets/tms/Mathavaroopan_Sivakumar.jpg";
 import Lohit from "@/assets/tms/Lohit_Vignesh_S.jpg";
 
@@ -13,12 +13,15 @@ import Asmita_Padmanabhan from "@/assets/tms/Asmita_Padmanabhan.jpg";
 import Adithiyaa_T from "@/assets/tms/Adithiyaa_T.jpg";
 import Kavinkishore_I from "@/assets/tms/Kavinkishore_I.jpg";
 import Bagavati_Narayanan from "@/assets/tms/Bagavati_Narayanan.jpg";
-import Shrinarayan_N from "@/assets/tms/Shrinarayan_N.jpg";
+import Shrinarayan_N from "@/assets/tms/Shrinarayan_N.jpeg";
 import Meghana_Kumar from "@/assets/tms/Meghana_Kumar.jpg";
 import Pranav_Krishna_P from "@/assets/tms/Pranav_Krishna_P.jpg";
 import Rijja_H from "@/assets/tms/Rijja_H.jpg";
 import Hrithika_S from "@/assets/tms/Hrithika_S.jpg";
 import Yashwanth_B from "@/assets/tms/Yashwanth_B.jpg";
+import Irfan from '@/assets/tms/Irfan_Akthar_A.jpg'
+import Jayanth from '@/assets/tms/Jayanth_Natarajan.jpg'
+import AkshayaLakshmi from '@/assets/tms/Akshayalakshmi_S.jpg'
 
 
 export const TeamMembers = [
@@ -28,7 +31,7 @@ export const TeamMembers = [
       {
         name: "Ashwin Kumar S",
         role: "President",
-        bio: "Hey! I’m Ashwin Kumar S — I love building modern full-stack applications and crafting smart software solutions. You’ll usually find me deep into code or tackling a DSA problem for fun 😉.",
+        bio: "Hey! I’m Ashwin Kumar S — I love building modern full-stack applications and crafting smart software solutions. You'll usually find me deep into code or tackling a DSA problem for fun 😉.",
         year: "IV",
         image: AshwinKumar,
         socials: {
@@ -83,7 +86,7 @@ export const TeamMembers = [
         role: "AI/ML Sub-head",
         bio: "Well... I am not really a coding coding person😁, I started learning AIML from 2nd sem and thought anything could not be worse than this becz of the mathematical stuffs in those. But when I started implementing real world projects with chatgpt as my god it was easy 🤠. AIML is a domain which is v imp for hackathons and projects but its difficult and vast untill u find the correct road map for it. Together lets learn as well as implement real world projects😇. So I am here to just kick start ur AIML journey and there u go😊✨️",
         year: "III",
-        // image: PiriyadharshiniA,
+        image: Jayanth,
         socials: {
           github: null,
           linkedin: null,
@@ -107,7 +110,7 @@ export const TeamMembers = [
         role: "DSA/CP Sub-Head",
         bio: "Heyooo I'm super fun to hang out with, very friendly nice, enthusiastic, full of energy, zuper ready to learn and one niceeeee personnnnn lessgoooooo!!!!! (Please frame this up nicely for me thank youuuu)(Just kidding, lemme know if you'd like a serious write up! 😃)",
         year: "III",
-        // image: Dhanush,
+        image: AkshayaLakshmi,
         socials: {
           github: null,
           linkedin: null,
@@ -131,10 +134,10 @@ export const TeamMembers = [
         role: "Web Development Sub Head",
         bio: "known for his coding acumen and his impecable(albeit rarely used) debate skills, this emo looking guy surprises you with his charm and spreads joy wherever he goes",
         year: "III",
-        // image: Lohit,
+        image: Irfan,
         socials: {
-          github: "dotzero27",
-          linkedin: "lohitv",
+          github: null,
+          linkedin: null,
           instagram: null,
         },
       },
@@ -145,9 +148,9 @@ export const TeamMembers = [
         year: "III",
         image: KathirvelanJ,
         socials: {
-          github: "https://github.com/Ashwin0006",
-          linkedin: "https://www.linkedin.com/in/ashwin-kumar-18872327a/",
-          instagram: null,
+          github: null,
+          linkedin: "kathirvelanj",
+          instagram: "kathirvelan213",
         },
       },
     ],
@@ -174,20 +177,8 @@ export const TeamMembers = [
         year: "III",
         image: Bagavati_Narayanan,
         socials: {
-          github: null,
-          linkedin: null,
-          instagram: null,
-        },
-      },
-      {
-        name: "Kavin Kishore I ",
-        role: "Core Committee member",
-        bio: "I am a guy driven by Passion! Loves writing code, building web pages. Aiming to collaborate and network with seniors through the Procode community. Loves playing chess, speed solving Rubik's cube, public speaking(lil bit 😅).",
-        year: "II",
-        image: Kavinkishore_I,
-        socials: {
-          github: null,
-          linkedin: null,
+          github: "baggie11",
+          linkedin: "bagavati-narayanan-98484b292",
           instagram: null,
         },
       },
@@ -237,11 +228,11 @@ export const TeamMembers = [
         image: Rijja_H,
         socials: {
           github: null,
-          linkedin: null,
+          linkedin: "rijja-h",
           instagram: null,
         },
       },
-
+      
       {
         name: "Hrithika S ",
         role: "Core Committee member",
@@ -254,23 +245,23 @@ export const TeamMembers = [
           instagram: null,
         },
       },
-    ],
-  },
-  {
-    title: "Design, Marketing and Social Media Heads",
-    members: [
       {
-        name: "Asmita Padmanabhan",
-        role: "Marketing Lead",
-        bio: "Meet Asmita, who coaxed them all to give write-ups about themselves (she may or may not have edited them). To her, ProCode is a space to network with peers from the department, trauma-bond, share warnings about courses, exchange goss and discuss project ideas. She defends python with her life and claims prompt-engineering to be her area of expertise when all she does is chat with and beg ChatGPT (her one true love). She is enthusiastic about all aspects of Public Relations and Marketing - strategizing, doomscrolling reels (in the name of research ofc), content creation, cold calling, posting, stalking, analyzing, and handling chaos. She's a huge foodie who refuses to get out of her house. Her friends definer her by her love for the Indian Constitution (her fav book), Dosas and her bed. She has no complains there.",
-        year: "III",
-        image: Asmita_Padmanabhan,
+        name: "Kavin Kishore I ",
+        role: "Core Committee member",
+        bio: "I am a guy driven by Passion! Loves writing code, building web pages. Aiming to collaborate and network with seniors through the Procode community. Loves playing chess, speed solving Rubik's cube, public speaking(lil bit 😅).",
+        year: "II",
+        image: Kavinkishore_I,
         socials: {
           github: null,
           linkedin: null,
           instagram: null,
         },
       },
+    ],
+  },
+  {
+    title: "Design, Marketing and Social Media Heads",
+    members: [
       {
         name: "Sai Deshna Budideti",
         role: "Design Head",
@@ -278,6 +269,18 @@ export const TeamMembers = [
         // need bio 
         year: "IV",
         image: Sai_Deshna,
+        socials: {
+          github: null,
+          linkedin: null,
+          instagram: null,
+        },
+      },
+      {
+        name: "Asmita Padmanabhan",
+        role: "Marketing Lead",
+        bio: "Meet Asmita, who coaxed them all to give write-ups about themselves (she may or may not have edited them). To her, ProCode is a space to network with peers from the department, trauma-bond, share warnings about courses, exchange goss and discuss project ideas. She defends python with her life and claims prompt-engineering to be her area of expertise when all she does is chat with and beg ChatGPT (her one true love). She is enthusiastic about all aspects of Public Relations and Marketing - strategizing, doomscrolling reels (in the name of research ofc), content creation, cold calling, posting, stalking, analyzing, and handling chaos. She's a huge foodie who refuses to get out of her house. Her friends definer her by her love for the Indian Constitution (her fav book), Dosas and her bed. She has no complains there.",
+        year: "III",
+        image: Asmita_Padmanabhan,
         socials: {
           github: null,
           linkedin: null,
