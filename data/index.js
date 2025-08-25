@@ -113,8 +113,8 @@ export const TeamMembers = [
         image: AkshayaLakshmi,
         socials: {
           github: null,
-          linkedin: null,
-          instagram: null,
+          linkedin: "akshayalakshmi-s-43396a2b7",
+          instagram: "the_azure_mirage",
         },
       },
       {
@@ -266,7 +266,6 @@ export const TeamMembers = [
         name: "Sai Deshna Budideti",
         role: "Design Head",
         bio: "Hi I am Sai Deshna and I have been appointed as the Design Head for procode club this year. I believe in the power of visual communication to inspire, inform and connect so I find joy in creating impactful designs that resonate with people.I like listening to music and reading in my leisure time.",
-        // need bio 
         year: "IV",
         image: Sai_Deshna,
         socials: {
@@ -283,8 +282,8 @@ export const TeamMembers = [
         image: Asmita_Padmanabhan,
         socials: {
           github: null,
-          linkedin: null,
-          instagram: null,
+          linkedin: "asmita-padmanabhan-2212532ba",
+          instagram: "aham_asmi",
         },
       },
       {
