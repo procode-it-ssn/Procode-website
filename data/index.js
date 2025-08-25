@@ -1,24 +1,25 @@
 //Member Images
 import AshwinKumar from "@/assets/tms/Ashwin_Kumar_S.jpg";
-
-import SaiDeshna from "@/assets/tms/Sai_Deshna_Budideti.jpg";
-import VithulaS from "@/assets/tms/Vithula_S.jpg";
 import NithyasriR from "@/assets/tms/Nithyasri_R.jpg";
-
-import DunyaSyedHassan from "@/assets/tms/Dunya_Syed_Hassan.png";
-
 import Pranesh from "@/assets/tms/Pranesh Kumar_S_P.jpg";
-// import AdithiyaaT from "@/assets/tms/Adithiyaa_T.jpg";
-// import IrfanAkthar from "@/assets/tms/Irfan_Akthar_A.jpg";
-// import KavinKishore from "@/assets/tms/Kavin_Kishore_I.jpg";
-// import JayanthNatarajan from "@/assets/tms/Jayanth_Natarajan.jpg";
-// import ShrinarayanN from "@/assets/tms/Shrinarayan_N.jpg";  
-// import BagavatiNarayanan from "@/assets/tms/Bagavati_Narayanan.jpg";  
-// import MeghanaKumar from "@/assets/tms/Meghana_Kumar.jpg";
-
 import Mathavaroopan from "@/assets/tms/Mathavaroopan_Sivakumar.jpg";
 import Lohit from "@/assets/tms/Lohit_Vignesh_S.jpg";
+
+import Sai_Deshna from "@/assets/tms/Sai_Deshna.jpg";
+import VithulaS from "@/assets/tms/Vithula_S.jpg";
 import KathirvelanJ from "@/assets/tms/Kathirvelan_J.jpg";
+import Asmita_Padmanabhan from "@/assets/tms/Asmita_Padmanabhan.jpg";
+
+import Adithiyaa_T from "@/assets/tms/Adithiyaa_T.jpg";
+import Kavinkishore_I from "@/assets/tms/Kavinkishore_I.jpg";
+import Bagavati_Narayanan from "@/assets/tms/Bagavati_Narayanan.jpg";
+import Shrinarayan_N from "@/assets/tms/Shrinarayan_N.jpg";
+import Meghana_Kumar from "@/assets/tms/Meghana_Kumar.jpg";
+import Pranav_Krishna_P from "@/assets/tms/Pranav_Krishna_P.jpg";
+import Rijja_H from "@/assets/tms/Rijja_H.jpg";
+import Hrithika_S from "@/assets/tms/Hrithika_S.jpg";
+import Yashwanth_B from "@/assets/tms/Yashwanth_B.jpg";
+
 
 export const TeamMembers = [
   {
@@ -159,7 +160,7 @@ export const TeamMembers = [
         role: "Core Committee member",
         bio: "\"Code is like humor, When you have to explain it, it's bad\" and so is my profile, I'm Adithiyaa, my CPU's hot and my core runs cold. I'm right here, Influencing the upcoming coders, finding some possible way in making a GUI that Big Billie uses, extending people's efforts to become someone that they were once scared of, I'm always down in supporting the ideas that sides with the common good, and so making this the broCode between anyone in the department. once again, I'm recruiting y'all, let's go!",
         year: "III",
-        // image: NithishKumar,
+        image: Adithiyaa_T,
         socials: {
           github: null,
           linkedin: null,
@@ -171,7 +172,7 @@ export const TeamMembers = [
         bio: "I’m someone who’s passionate about building solutions that bring a little magic into people’s lives. This year, I’m proud to be one of the core committee members of ProCode. I was deeply interested in taking up this role because of the meaningful and impactful opportunities the club offers.  Being a part of ProCode last year truly helped me grow, and I gained a lot through participating in its activities. Now, I want to pay it forward—double it and give it to the next person, as they say. I hope to help juniors make the most of their time here, just like I did.  Outside of tech, I enjoy reading—thrillers are my absolute favorite. Give me a good thriller, and I’ll be hooked for life. I also enjoy listening to music and singing along (though I definitely can’t sing!), and dancing to copied Instagram choreographies. It’s all about having fun! ",
         role: "Core Committee Member",
         year: "III",
-        // image: NithyasriR,
+        image: Bagavati_Narayanan,
         socials: {
           github: null,
           linkedin: null,
@@ -183,7 +184,7 @@ export const TeamMembers = [
         role: "Core Committee member",
         bio: "I am a guy driven by Passion! Loves writing code, building web pages. Aiming to collaborate and network with seniors through the Procode community. Loves playing chess, speed solving Rubik's cube, public speaking(lil bit 😅).",
         year: "II",
-        // image: Pranesh,
+        image: Kavinkishore_I,
         socials: {
           github: null,
           linkedin: null,
@@ -195,7 +196,7 @@ export const TeamMembers = [
         role: "Core Committee member",
         bio: "I like filter coffee",
         year: "III",
-        // image: DunyaSyedHassan,
+        image: Shrinarayan_N,
         socials: {
           github: null,
           linkedin: null,
@@ -207,7 +208,7 @@ export const TeamMembers = [
         role: "Core Committee member",
         bio: "I’m someone who gets super intrigued by anything new—whether it’s tech, a random idea, or something totally out of my comfort zone, I love giving it a shot. That curiosity is what pulled me toward ProCoDe. The club stood out last year with all the work it did, and I saw it as the perfect place to learn, explore, and grow while figuring out what part of tech I really enjoy.  I’m still navigating my way through the tech space, trying different things and seeing what sticks. Being part of the core committee gives me a great chance to do that while also giving back—just like my seniors helped guide me when I was starting out. Outside of all this, I’m a passionate dancer and lowkey live for the SSN bus rides just to vibe with my playlist. I’m usually full of energy (sometimes borderline eccentric, but only in a fun way, promise 😉). Always happy to chat, always up for something new—really excited to be part of this team!",
         year: "III",
-        // image: VithulaS,
+        image: Meghana_Kumar,
         socials: {
           github: null,
           linkedin: null,
@@ -220,7 +221,7 @@ export const TeamMembers = [
         role: "Core Committee member",
         bio: "[root@host:~]$ whoami  This is Pranav Krishna, a third-year student from the IT department.   I run Linux, obviously, because a stable life can be boring soon. I would love to spend hours trying to automate simple, mundane things, which is kinda where my joy lies. Of course I'm a supporter of Right to Repair (All hail Louis Rossmann the God of Repair, and Andy, the Greatest Technician that's Ever Lived).  Being part of the core committee at ProCoDe, I'm indebted (of course) and would love to talk about things that are not usually covered, like containers and their orchestration, virtual machines, the behind-the-scenes stuff happening in servers, etc. I'll teach you the best vim keystrokes to use to eat breakfast :)",
         year: "III",
-        // image: VithulaS,
+        image: Pranav_Krishna_P,
         socials: {
           github: null,
           linkedin: null,
@@ -233,7 +234,7 @@ export const TeamMembers = [
         role: "Core Committee member",
         bio: "Hii, I’m Rijja – Core Committee @ ProCode (aka part of the team trying to make tech feel less scary and way more fun ). I’m not here to act like I know everything (spoiler: I don’t), but I am here to figure things out together, vibe over ideas, and maybe laugh through a little chaos along the way . If you’re ever feeling stuck, confused, or just need someone to rant to about that one error that won’t leave—you know where to find me. Let’s make learning feel exciting, not exhausting .",
         year: "III",
-        // image: VithulaS,
+        image: Rijja_H,
         socials: {
           github: null,
           linkedin: null,
@@ -246,7 +247,7 @@ export const TeamMembers = [
         role: "Core Committee member",
         bio: "I’m a jolly, friendly, and amiable person who enjoys exploring and gaining more insights about various domains in the tech world and likes giving my best in whatever I do. I like being  in collaborative environments, loves making friends, and value teamwork. My strong passion lies in coding, technology, and solving real-world problems using logical thinking.  I’m constantly exploring diverse areas of development—from software programming and data structures to software development and architecture. I enjoy learning new technologies and applying them in hands-on projects that challenge and grow my skills.  Outside the tech space, I’m a national-level table tennis player, which has instilled in me qualities like discipline, focus, and consistency—traits I bring into my academic and professional pursuits. I also enjoy watching movies, doing fitness, keeping up with current affairs, and learning different forms of art.",
         year: "III",
-        // image: VithulaS,
+        image: Hrithika_S,
         socials: {
           github: null,
           linkedin: null,
@@ -263,7 +264,7 @@ export const TeamMembers = [
         role: "Marketing Lead",
         bio: "Meet Asmita, who coaxed them all to give write-ups about themselves (she may or may not have edited them). To her, ProCode is a space to network with peers from the department, trauma-bond, share warnings about courses, exchange goss and discuss project ideas. She defends python with her life and claims prompt-engineering to be her area of expertise when all she does is chat with and beg ChatGPT (her one true love). She is enthusiastic about all aspects of Public Relations and Marketing - strategizing, doomscrolling reels (in the name of research ofc), content creation, cold calling, posting, stalking, analyzing, and handling chaos. She's a huge foodie who refuses to get out of her house. Her friends definer her by her love for the Indian Constitution (her fav book), Dosas and her bed. She has no complains there.",
         year: "III",
-        // image: AnanyaSivakumar,
+        image: Asmita_Padmanabhan,
         socials: {
           github: null,
           linkedin: null,
@@ -276,7 +277,7 @@ export const TeamMembers = [
         bio: "Hi I am Sai Deshna and I have been appointed as the Design Head for procode club this year. I believe in the power of visual communication to inspire, inform and connect so I find joy in creating impactful designs that resonate with people.I like listening to music and reading in my leisure time.",
         // need bio 
         year: "IV",
-        image: SaiDeshna,
+        image: Sai_Deshna,
         socials: {
           github: null,
           linkedin: null,
@@ -288,7 +289,7 @@ export const TeamMembers = [
         role: "Design Sub Head",
         bio: "Hey, I am Yashwanth B, I design posters, Edit videos and also code.Open to learning and trying different things.",
         year: "II",
-        // image: SaiDeshna,
+        image: Yashwanth_B,
         socials: {
           github: null,
           linkedin: null,
