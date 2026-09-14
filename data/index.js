@@ -8,7 +8,7 @@ import Akshayalakshmi_S from "@/assets/tms/Akshayalakshmi_S.jpg";
 import Irfan_Akthar_A from "@/assets/tms/Irfan_Akthar_A.jpg";
 import Bagavati_Narayanan from "@/assets/tms/Bagavati_Narayanan.jpg";
 import Jayanth_Natarajan from "@/assets/tms/Jayanth_Natarajan.jpg";
-// import Srivathsan_G from "@/assets/tms/Srivathsan_G.jpg"; // TODO: photo missing
+import Srivathsan_G from "@/assets/tms/Srivathsan_G.png";
 import Shrinarayan_N from "@/assets/tms/Shrinarayan_N.jpg";
 import Sanjay_J from "@/assets/tms/Sanjay_J.jpg";
 import Pranav_Krishna_P from "@/assets/tms/Pranav_Krishna_P.jpg";
@@ -18,10 +18,10 @@ import Daniel_Wilson from "@/assets/tms/Daniel_Wilson.jpg";
 import Rijja_H from "@/assets/tms/Rijja_H.jpg";
 import Meghana_Kumar from "@/assets/tms/Meghana_Kumar.jpg";
 import Akkshaya_Kumar_R_V from "@/assets/tms/Akkshaya_Kumar_R_V.jpg";
-// import Guru_Abijeth_S from "@/assets/tms/Guru_Abijeth_S.jpg"; // TODO: photo missing
+import Guru_Abijeth_S from "@/assets/tms/Guru_Abijeth_S.jpeg";
 import Hitesh_M_R from "@/assets/tms/Hitesh_M_R.jpg";
 import Oviya_T_S from "@/assets/tms/Oviya_T_S.jpg";
-// import Sreenath_G from "@/assets/tms/Sreenath_G.jpg"; // TODO: photo missing
+import Sreenath_G from "@/assets/tms/Sreenath_G.jpeg";
 import Sundararajan_R from "@/assets/tms/Sundararajan_R.jpg";
 import Yasasvini_Tiwari from "@/assets/tms/Yasasvini_Tiwari.jpg";
 import Divasundar_S from "@/assets/tms/Divasundar_S.jpg";
@@ -87,20 +87,18 @@ export const TeamMembers = [
           instagram: null,
         },
       },
-      // TODO: photo not yet identified — add assets/tms/Srivathsan_G.jpg,
-      // restore the import above, then uncomment.
-      // {
-      // name: "Srivathsan G",
-      // role: "AI/ML Sub Head",
-      // bio: "If it works, all part of the plan. If it doesn’t, we figure it out 🙄. Taking over as your AI/ML SubHead.",
-      // year: "III",
-      // image: Srivathsan_G,
-      // socials: {
-      // github: null,
-      // linkedin: "indubitablysrivathsan",
-      // instagram: "indubitablysrivathsan",
-      // },
-      // },
+      {
+        name: "Srivathsan G",
+        role: "AI/ML Sub Head",
+        bio: "If it works, all part of the plan. If it doesn’t, we figure it out 🙄. Taking over as your AI/ML SubHead.",
+        year: "III",
+        image: Srivathsan_G,
+        socials: {
+          github: null,
+          linkedin: "indubitablysrivathsan",
+          instagram: "indubitablysrivathsan",
+        },
+      },
       {
         name: "Shrinarayan N",
         role: "DSA Head",
@@ -219,20 +217,18 @@ export const TeamMembers = [
           instagram: "akkshay_3",
         },
       },
-      // TODO: photo not yet identified — add assets/tms/Guru_Abijeth_S.jpg,
-      // restore the import above, then uncomment.
-      // {
-      // name: "Guru Abijeth S",
-      // role: "Technical Core Committee Member",
-      // bio: "Low battery. High standards. 😮‍💨",
-      // year: "III",
-      // image: Guru_Abijeth_S,
-      // socials: {
-      // github: null,
-      // linkedin: "guru-abijeth-s-46610132b",
-      // instagram: "_guruabijeth_sivakumar_",
-      // },
-      // },
+      {
+        name: "Guru Abijeth S",
+        role: "Technical Core Committee Member",
+        bio: "Low battery. High standards. 😮‍💨",
+        year: "III",
+        image: Guru_Abijeth_S,
+        socials: {
+          github: null,
+          linkedin: "guru-abijeth-s-46610132b",
+          instagram: "_guruabijeth_sivakumar_",
+        },
+      },
       {
         name: "Hitesh M R",
         role: "Technical Core Committee Member",
@@ -257,20 +253,18 @@ export const TeamMembers = [
           instagram: "_oviyasen_",
         },
       },
-      // TODO: photo not yet identified — add assets/tms/Sreenath_G.jpg,
-      // restore the import above, then uncomment.
-      // {
-      // name: "Sreenath G",
-      // role: "Technical Core Committee Member",
-      // bio: "Nothing works, when everything works...",
-      // year: "III",
-      // image: Sreenath_G,
-      // socials: {
-      // github: null,
-      // linkedin: "sreenath-g-81414a326",
-      // instagram: "vaillant_sree",
-      // },
-      // },
+      {
+        name: "Sreenath G",
+        role: "Technical Core Committee Member",
+        bio: "Nothing works, when everything works...",
+        year: "III",
+        image: Sreenath_G,
+        socials: {
+          github: null,
+          linkedin: "sreenath-g-81414a326",
+          instagram: "vaillant_sree",
+        },
+      },
       {
         name: "Sundararajan R",
         role: "Technical Core Committee Member",
